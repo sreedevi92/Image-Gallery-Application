@@ -1,4 +1,4 @@
 ---
 applications:
-- name: image-gallery-0.1.0
+- name: sree-image-gallery-0.1.0
   path: ./build/libs
