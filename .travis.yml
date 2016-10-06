@@ -1,7 +1,7 @@
 language: java
 before_install:
 - chmod +x gradlew  
-script: "./gradle check"
+script: "./gradlew check"
 deploy:
  edge: true
  provider: cloudfoundry
