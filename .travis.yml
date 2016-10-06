@@ -1,12 +1,12 @@
 language: java
 deploy:
-  edge:true
-  provider:cloudfoundry
-  username:sreedevr@andrew.cmu.edu
-  password:"$cooByDoo009"
-  api:https://api.run.pivotal.io
-  organization:sreedevi-cmu
-  space:development
+  edge: true
+  provider: cloudfoundry
+  username: sreedevr@andrew.cmu.edu
+  password: "$cooByDoo009"
+  api: https://api.run.pivotal.io
+  organization: sreedevi-cmu
+  space: development
 before_cache:
 - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
 - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
